@@ -1,0 +1,10 @@
+h1 {
+    color: black;
+}
+ul.li.first {
+    list-style-position: outside;
+  }
+  
+  ul.li.second {
+    list-style-position: inside;
+  }
