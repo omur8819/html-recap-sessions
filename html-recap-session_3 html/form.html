@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <form action="result.html" name="myfirstform" method="">
+        <div>
+        <label><b>Username: </b><input type="text" name="username"placeholder="Enter a name"></label>
+        
+        <br><br>
+        <label for="surname"><b>Surname: </b></label>
+        <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, repudiandae!</i></p>
+        <input type="text" name="s-name" id="surname" placeholder="Enter a surname">
+        </div>
+        <br><br>
+        <div>
+            <label for=""><strong>Password:</strong> <input type="password" name="şifre" id="password" placeholder="Enter a password"></label>
+        </div>
+        <br>
+        <div>
+            <strong>Gender:</strong> <label for="gender1"><input type="radio" name="genders" value="male" id="gender1">Male </label>
+            
+            <label for="gender2"><input type="radio" name="genders" value="male" id="gender2">Female </label>
+        </div>
+        <br>
+        <div><strong>Araçlar:</strong>
+            <input type="checkbox" name="arac-1" id="arac-1" value="bisiklet"><label for="arac-1">Bisiklet</label>
+            <input type="checkbox" name="arac-2" id="arac-2" value="araba"><label for="arac-2">Araba</label>
+            <input type="checkbox" name="arac-3" id="arac-3" value="tekne"><label for="arac-3">Tekne</label>
+        </div>
+        <br>
+        <div>
+            <label for="age"><strong>Age:</strong> </label>
+            <input type="number" name="age" id="age" min="3" max="4" step="0.01">
+        </div>
+        <br>
+        <!-- Buraya Bak -->
+        <label for="phone">Enter a phone number:</label><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+        <small>Format: 123-45-678</small>
+        <br><br>
+
+        <div>
+            <label for="gsearch"><strong>Search Google:</strong></label>
+            <input type="search" name="search" id="gsearch" placeholder="Search">
+        </div>
+        <br>
+        <div>
+            <label for="favcolor"><strong>Select Color:</strong> </label>
+            <input type="color" name="favcolor" id="favcolor">
+        </div>
+        <br>
+        <div>
+            <label for="date"><strong>Birthday:</strong> </label>
+            <input type="date" name="date" id="date" min="2020-01-01" max="2021-01-01">
+        </div>
+        <br>
+        <div>
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="email" id="email" maxlength="45">
+        </div>
+        <br>
+        <div>
+            <label for="myfile"><strong>Select a file:</strong></label>
+            <input type="file" name="myfile" id="myfile">
+        </div>
+        <br>
+        <div>
+            <label for="telno"><strong>Enter a tel number:</strong></label>
+            <input type="tel" name="tel-number" id="telno" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </div>
+        <br>
+        <input type="submit" value="Send Data">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
