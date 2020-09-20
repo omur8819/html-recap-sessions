@@ -1,0 +1,44 @@
+/* CSS file */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: circle;
+}
+#borderr {
+    border: 5px solid red;
+    padding: 10px;
+    margin: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    height: 50px;
+    /* text-align: center; */
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* h2 {
+    color: blue;
+}
+.h2tags {
+    color: red;
+}
+h2 {
+    color: blue;
+}
+#h2ID {
+    color: darkcyan;
+    background-color: aliceblue;
+}
+ */
