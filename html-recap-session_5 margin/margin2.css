@@ -1,0 +1,27 @@
+body {
+    background-color: #f3f3f3;
+}
+ .demo-box { 
+    background-color: white;
+    width: 80%;
+    margin: 100px auto;
+}
+.one {
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+}
+.two {
+    background-color: #00ff00;
+    height: 200px;
+    width: 200px;
+}
+.three {
+    background-color: #0000ff;
+    height: 200px;
+    width: 200px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border: 25px solid red;
+} 
