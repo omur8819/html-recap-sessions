@@ -1,0 +1,29 @@
+body {
+    font-size: 40px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    background-color: indigo;
+    padding: 2px;
+}
+
+a:visited {
+    color: rgb(80, 150, 80);
+    text-decoration: underline solid black;
+}
+
+a:hover {
+    background-color: hotpink;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+
+a:active {
+    color: red;
+}
+
+a.link1:hover {
+    color: green;
+}
