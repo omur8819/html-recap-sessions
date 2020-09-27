@@ -1,0 +1,35 @@
+ul {
+    /* list-style-type: decimal;
+    list-style-type: circle;
+    list-style-type: "\F44D"; */
+    list-style-type: none;
+}
+
+li:before{
+    content: "\2764";
+    color: red;
+}
+
+ul {
+    /* list-style-type: decimal;
+    list-style-type: circle;
+    list-style-type: "\F44D"; */
+    list-style-image: url("https://picsum.photos/id/564/12/12");
+}
+
+li {
+    border: 1px solid black;
+}
+
+ul {
+    /* list-style-type: decimal;
+    list-style-type: circle;
+    list-style-type: "\F44D"; */
+    list-style-image: url("https://picsum.photos/id/564/12/12");
+    list-style-position: outside;
+    background-color: green;
+}
+
+ul {
+    list-style: square inside;
+}
