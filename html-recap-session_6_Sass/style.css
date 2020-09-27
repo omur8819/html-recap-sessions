@@ -1,0 +1,32 @@
+/*
+.container {
+    background-color: yellow;
+    .container__button--small {
+        color: green;
+        font-style: italic;
+    }
+}
+*/
+/*
+.container {
+    background-color: yellow;
+    &__button--small {
+        color: green;
+        font-style: italic;
+    }
+    &__button--large {
+        color: green;
+        font-style: italic;
+    }
+}*/
+.container {
+  background-color: yellow;
+}
+.container__button--small {
+  color: pink;
+}
+.container__button--large {
+  color: pink;
+}
+
+/*# sourceMappingURL=style.css.map */
