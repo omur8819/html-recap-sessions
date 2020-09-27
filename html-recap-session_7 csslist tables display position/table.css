@@ -1,0 +1,46 @@
+table,
+th,
+td {
+    border: 1px solid #000000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    height: 50px;
+    text-align: left;
+    vertical-align: top;
+    padding: 15px;
+    background-color: darkgray;
+}
+
+caption {
+    caption-side: bottom; /* Caption er nederst*/
+    text-align: left;
+}
+
+td {
+    text-align: center;
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: chocolate;
+    
+}
+
+td:hover, th:hover {
+    background-color: cornflowerblue;
+    
+}
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+tr:nth-last-child(even) {
+    background-color: red;
+}
