@@ -1,0 +1,38 @@
+// button {
+//     width: 180px;
+//     background-color: $primaryButtonColor;
+//     &:hover {
+//         width: 200px;
+//     }
+// }
+
+/*
+.container {
+    background-color: yellow;
+    .container__button--small {
+        color: green;
+        font-style: italic;
+    }
+}
+*/
+
+/*
+.container {
+    background-color: yellow;
+    &__button--small {
+        color: green;
+        font-style: italic;
+    }
+    &__button--large {
+        color: green;
+        font-style: italic;
+    }
+}*/
+
+.container {
+    background-color: yellow;
+    &__button {
+        &--small {color: pink}
+        &--large {color: pink}
+    }
+}
