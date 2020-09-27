@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#div1 {
+    background-color: red;
+}
+#span1 {
+    display: inline-block;
+    background-color: #00ff00;
+    height: 100px;  /* Den fungerer ikke fordi span inline element. Hvis vil vi, kan den fungere, vi må skrive  display: inline-block;*/
+    width: 100px;  /* Den fungerer ikke fordi span inline element. Hvis vil vi, kan den fungere, vi må skrive  display: inline-block;*/
+}
+#span2 {
+    background-color: #0000ff;
+    margin-bottom: 40px;  /* Den fungerer ikke fordi span inline element. Hvis vil vi, kan den fungere, vi må skrive  display: inline-block;*/
+    padding: 15px;
+}
+#div2 {
+    background-color: darkviolet;
+}
+
+img {
+    /* display: none; */
+    visibility: hidden; /* som opacity=0*/
+    width: 50px;
+    height: 50px;
+}
