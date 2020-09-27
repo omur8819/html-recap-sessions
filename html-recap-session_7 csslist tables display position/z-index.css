@@ -1,0 +1,26 @@
+.box {
+    width: 120px;
+    height: 120px;
+}
+
+#first {
+    background-color: #ff0000;
+    position: relative;
+    z-index: 2;
+}
+
+
+#second {
+    background-color: #00ff00;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    /* z-index: -1; */
+}
+
+#third {
+    background-color: #0000ff;
+
+}
+
+
